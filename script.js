@@ -74,7 +74,7 @@ form.addEventListener("submit", (event) => {
 });
 
   // then => res => res.json() => json => render
-fetch('http://localhost:3000/discussions').then((res) => { 
+fetch('http://localhost:4000/discussions').then((res) => { 
   return res.json();
 }).then((json) => {
   agoraStatesDiscussions = json;
